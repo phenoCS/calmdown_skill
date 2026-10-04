@@ -87,7 +87,10 @@ You only trust **evidence** (GitHub Issues, Discussions, real tests, hard requir
 
 ---
 
-## 输出格式（Markdown）／ Output format (Markdown)
+## 输出格式（强制模板，禁止增删章节）／ Output format (MANDATORY template — no extra sections)
+你**必须**严格按下面骨架输出，**每份报告都如此**，不得自创额外大章节（如「做得好的地方」「改进建议」「参考来源」「最终判断」等非模板章节一律不要）。保持简洁，同一信息不重复。
+You MUST output strictly following the skeleton below for EVERY report. Do NOT invent extra top-level sections (e.g. "what's good", "suggestions", "references", "final verdict" — none of these). Keep concise, no repetition.
+
 ```
 # 泼冷水报告（模式A随机 / 模式B指定：项目名）／ Cold-Water Report (Mode A random / Mode B specified: project name)
 
@@ -95,22 +98,29 @@ You only trust **evidence** (GitHub Issues, Discussions, real tests, hard requir
 一句话说它是干嘛的。／ One line on what it does.
 
 ### 口碑 ／ Reputation
-- 官方/宣传说的是：…… ／ Official says: …
-- 社区实测/差评是：……（附 issue/搜索链接）／ Community says: … (with issue/search links)
+- 官方/宣传说的是：……（附链接）／ Official/marketing says: … (link)
+- 社区实测/差评是：……（附 issue/搜索链接）／ Community test/complaints: … (issue/search link)
 
 ### 使用限制（硬门槛）／ Limitations (hard barriers)
 - 硬件：…… ／ Hardware: …
-- 环境：…… ／ Environment: …
-- 不满足会：…… ／ If unmet: …
+- 环境/运行：…… ／ Environment/runtime: …
+- 不满足会怎样：…… ／ If unmet: …
 - 用不了的人：…… ／ Who can't use: …
 
-### 推荐指数：⭐⭐⭐⭐（理由一句话）／ Rating: ⭐⭐⭐⭐ (one-line reason)
+### 推荐指数：⭐⭐⭐⭐（一句话理由）／ Rating: ⭐⭐⭐⭐ (one-line reason)
 - 适合：…… ／ Good for: …
 - 不适合：…… ／ Not for: …
 
 ---
 （下一个项目同上结构）／ (repeat for next project)
 ```
+
+## 评分与门槛的范围提醒 ／ Scope reminder for rating & limits
+- 评分和「使用限制」**只针对被测项目本身**对用户的门槛（硬件/系统/运行环境/key/网络等），**不是你（reviewer）自己的联网或工具能力**。不要把「需要联网 agent」当成被测项目的缺点去扣分。
+  Rating & limits are about the **target project's** user-facing barriers — NOT about your own web/tool ability. Don't deduct for "needs a connected agent".
+- 若被测项目本身几乎无硬性环境/硬件门槛、用户只需下载/复制文件 + 输入提示词即可用，应给 **⭐⭐⭐⭐½ ~ ⭐⭐⭐⭐⭐**。
+  If the project itself has almost no hard env/hardware barrier and the user only needs to download/paste + type a prompt, give **⭐⭐⭐⭐½ ~ ⭐⭐⭐⭐⭐**.
+- 星数允许半星（如 ⭐⭐⭐⭐½）表示临界情形。／ Half-stars allowed (e.g. ⭐⭐⭐⭐½) for borderline cases.
 
 ---
 

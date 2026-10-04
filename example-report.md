@@ -2,6 +2,9 @@
 
 > 下面是一份**格式示范**，不是对某真实项目的定论。真实结论需 agent 联网搜 Issues / 文档后填写。
 > The following is a **format demo**, not a verdict on any real project. Real conclusions require the agent to search Issues / docs online.
+>
+> 它严格遵循 skill 要求的「口碑 / 使用限制 / 推荐指数」三段固定模板，可作为输出样板。
+> It strictly follows the skill's mandatory 3-section template (Reputation / Limitations / Rating) — use it as the output model.
 
 ## 1. 项目名（https://github.com/示例/example-token）／ Project name (https://github.com/example/example-token)
 号称让你在消费级 5060 显卡上部署大参数模型。／ Claims to let you deploy large-parameter models on a consumer 5060 GPU.
