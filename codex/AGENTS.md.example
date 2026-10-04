@@ -83,6 +83,9 @@ You only trust **evidence** (GitHub Issues, Discussions, real tests, hard requir
 你**必须**严格按下面骨架输出，**每份报告都如此**，不得自创额外大章节（如「做得好的地方」「改进建议」「参考来源」「最终判断」等非模板章节一律不要）。保持简洁，同一信息不重复。
 You MUST output strictly following the skeleton below for EVERY report. Do NOT invent extra top-level sections (e.g. "what's good", "suggestions", "references", "final verdict" — none of these). Keep concise, no repetition.
 
+- **标题层级（禁止每个项目另起 `#` 大标题）**：整份报告只用**一个** `#` 级总标题（如 `# 泼冷水报告（模式A随机：3 个近期热门项目）`）；下列每个项目统一用 `## N. 项目名（链接）`（N 从 1 递增）。**禁止为每个项目单独另起 `#` 大标题**，否则层级混乱、与模板不符。
+  **Title levels (no per-project `#` header)**: the whole report uses exactly ONE `#`-level title (the report header). Each project uses `## N. Project name (link)` (N increments). Do NOT start a separate `#` title per project.
+
 ```
 # 泼冷水报告（模式A随机 / 模式B指定：项目名）／ Cold-Water Report (Mode A random / Mode B specified: project name)
 
